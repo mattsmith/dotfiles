@@ -25,36 +25,12 @@ PS1="$RED\$(date +%H:%M) \w$YELLOW \$(parse_git_branch)$GREEN\$ "
 # Autotest Cucumber
 export AUTOFEATURE=true
 
-go () {
-	cd ~/development/Healthism
-}
-
-go2 () {
-	cd ~/development/Healthism2
-}
-
-spat () {
-	cd ~/development/spattr-test
-}
-
 alpha () {
 	cd ~/development/alphascore
 }
 
 think () {
 	cd ~/development/thinkific
-}
-
-exam () {
-	cd ~/development/exam_marketplace
-}
-
-deploy_production () {
-		ey deploy -e healthism_production -r master -m
-}
-
-deploy_staging () {
-		ey deploy -e healthism_staging -m
 }
 
 gp() {
