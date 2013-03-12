@@ -26,16 +26,18 @@ PS1="$RED\$(date +%H:%M) \w$YELLOW \$(parse_git_branch)$GREEN\$ "
 export AUTOFEATURE=true
 
 alpha () {
-	cd ~/development/alphascore
+	cd ~/code/alphascore
 }
 
 think () {
-	cd ~/development/thinkific
+	cd ~/code/thinkific
 }
 
 gp() {
 	git pull
 	rake db:migrate
 }
-
+alias ssh_thinkific='ssh ubuntu@thinkific.com -i ~/.ssh/gsg-keypair.pem'
 alias b='bundle exec'
+
+export EDITOR="/usr/local/bin/mate -w"
