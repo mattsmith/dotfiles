@@ -38,6 +38,8 @@ gp() {
 	rake db:migrate
 }
 alias ssh_thinkific='ssh ubuntu@thinkific.com -i ~/.ssh/gsg-keypair.pem'
+alias ssh_alphascore='ssh ubuntu@alphascore.com -i ~/.ssh/thinkific-us-west-1.pem'
 alias b='bundle exec'
+alias z='zeus'
 
 export EDITOR="/usr/local/bin/mate -w"
