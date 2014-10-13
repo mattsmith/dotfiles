@@ -56,7 +56,7 @@ alias b='bundle exec'
 alias ssh_alphascore='ssh ubuntu@alphascore.com -i ~/.ssh/thinkific-us-west-1.pem'
 alias z='zeus'
 alias lh='open http://locahost:3000/'
-export EDITOR="/usr/local/bin/mate -w"
-
-alias test_local='java -jar ~/BrowserStackTunnel.jar N3SLWYKhXak2ddyDq5EW localhost,3000,0'
-alias test_bchrma='java -jar ~/BrowserStackTunnel.jar N3SLWYKhXak2ddyDq5EW bchrma.lvh.me,3000,0'export PATH=/usr/local/bin:/Users/mattsmith/.rvm/gems/ruby-1.9.3-p362/bin:/Users/mattsmith/.rvm/gems/ruby-1.9.3-p362@global/bin:/Users/mattsmith/.rvm/rubies/ruby-1.9.3-p362/bin:/Users/mattsmith/.rvm/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin
+alias ssh_thinkific='ssh ubuntu@thinkific.com -i ~/.ssh/gsg-keypair.pem'
+alias ssh_alphascore='ssh ubuntu@alphascore.com -i ~/.ssh/thinkific-us-west-1.pem'
+alias b='bundle exec'
+alias z='zeus'
